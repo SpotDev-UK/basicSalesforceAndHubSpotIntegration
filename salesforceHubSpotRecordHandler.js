@@ -42,9 +42,9 @@ const leadAsAccountMappings = {
 
 // Salesforce to HubSpot property map for the SFDC record ID fields
 const sfdcIdPropertiesInHubSpot = {
-    "contact": "sfdc_contact_id",
-    "lead": "sfdc_company_id",
-    "account": "sfdc_account_id"
+	contact: "sfdc_contact_id",
+	lead: "sfdc_lead_id",
+	account: "sfdc_account_id",
 };
 
 const sfdcContactOrLead = trigger.contact_or_account;
